@@ -31,6 +31,10 @@ body {
     max-width: 1300px;
 }
 
+.gray {
+    background-color: #f6f6f6;
+}
+
 /* /UTILITIES */
 
 /* STYLE */
@@ -62,11 +66,38 @@ nav>a {
     border: none;
 }
 
+.intro {
+    text-align: center;
+    margin: 120px auto;
+    max-width: 700px;
+    color: #fff;
+}
+
 h1 {
     font-size: 3rem;
 }
 
+.intro p {
+    padding-top: 50px;
+    font-size: 18px;
+    line-height: 1.7rem;
+}
+
+.large-button {
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 16px 32px;
+    border: none;
+    margin: 30px 15px;
+}
+
+#open-browser {
+    background-color: #23272a;
+    color: #fff;
+}
+
 /* /Header Style's */
+
 section {
     flex-basis: 650px;
 }
@@ -75,22 +106,5 @@ footer {
     background-color: #23272a;
     flex-basis: 400px;
 }
-
-.gray {
-    background-color: #f6f6f6;
-}
-
-.intro {
-    text-align: center;
-    margin: 120px auto;
-    max-width: 800px;
-    color: #fff;
-}
-
-.intro p {
-    padding-top: 50px;
-}
-
-
 
 /* /STYLE */
