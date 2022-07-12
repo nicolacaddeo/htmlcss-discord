@@ -22,12 +22,20 @@ body {
     flex-direction: column;
 }
 
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
 /* /UTILITIES */
 
 /* STYLE */
 header {
-    background-color: #404eed;
+    /*background-color: #404eed;*/
     flex-basis: 400px;
+    background-image: url('../img_discord/jumbo.png');
+    background-size: cover;
+    background-position: center center;
 }
 
 section {
@@ -46,14 +54,13 @@ footer {
 .top-header {
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
-    max-width: 1200px;
 }
 
 .intro {
     text-align: center;
-    margin: 70px auto;
+    margin: 90px auto;
     max-width: 800px;
+
 }
 
 .intro p {
