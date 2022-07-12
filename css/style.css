@@ -108,7 +108,7 @@ h1 {
 
 /* Main Style's */
 #chat-groups {
-    padding: 75px 0px;
+    padding-top: 75px;
 }
 
 .section-title {
@@ -131,6 +131,7 @@ h1 {
 
 }
 
+.big-textbox {}
 
 /* /Main Style's */
 
