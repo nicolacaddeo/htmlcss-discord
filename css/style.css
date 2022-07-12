@@ -13,7 +13,7 @@ body {
 /* /GENERALS RULES */
 
 /* UTILITIES */
-.flex-container {
+.flex {
     display: flex;
 }
 
@@ -22,22 +22,51 @@ body {
     flex-direction: column;
 }
 
+.space-between {
+    justify-content: space-between;
+}
+
 .container {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1300px;
 }
 
 /* /UTILITIES */
 
 /* STYLE */
+
+/* Header Style's */
 header {
-    /*background-color: #404eed;*/
-    flex-basis: 400px;
     background-image: url('../img_discord/jumbo.png');
     background-size: cover;
     background-position: center center;
 }
 
+header:first-child {
+    padding-top: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav>a {
+    padding: 0 20px;
+}
+
+#accedi {
+    font-size: 14px;
+    border-radius: 40px;
+    padding: 8px 17px;
+    border: none;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+/* /Header Style's */
 section {
     flex-basis: 650px;
 }
@@ -51,20 +80,17 @@ footer {
     background-color: #f6f6f6;
 }
 
-.top-header {
-    display: flex;
-    justify-content: space-between;
-}
-
 .intro {
     text-align: center;
-    margin: 90px auto;
+    margin: 120px auto;
     max-width: 800px;
-
+    color: #fff;
 }
 
 .intro p {
-    padding-top: 30px;
+    padding-top: 50px;
 }
+
+
 
 /* /STYLE */
