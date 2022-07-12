@@ -1,0 +1,63 @@
+/* GENERALS RULES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 1.2rem;
+}
+
+/* /GENERALS RULES */
+
+/* UTILITIES */
+.flex-container {
+    display: flex;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+/* /UTILITIES */
+
+/* STYLE */
+header {
+    background-color: #404eed;
+    flex-basis: 400px;
+}
+
+section {
+    flex-basis: 650px;
+}
+
+footer {
+    background-color: #23272a;
+    flex-basis: 400px;
+}
+
+.gray {
+    background-color: #f6f6f6;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.intro {
+    text-align: center;
+    margin: 70px auto;
+    max-width: 800px;
+}
+
+.intro p {
+    padding-top: 30px;
+}
+
+/* /STYLE */
