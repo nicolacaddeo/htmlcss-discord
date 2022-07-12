@@ -36,7 +36,7 @@ body {
 
 .container {
     margin: 0px auto;
-    max-width: 1300px;
+    max-width: 1200px;
 }
 
 .gray {
@@ -124,14 +124,35 @@ h1 {
     color: #23272a;
 }
 
-.text-box p {
+.text-box p,
+.big-textbox p {
     line-height: 1.8rem;
     font-size: 19px;
     font-weight: 500;
 
 }
 
-.big-textbox {}
+.big-textbox {
+    color: #23272a;
+    text-align: center;
+}
+
+.bottom-title {
+    text-align: center;
+    color: #23272a;
+    padding: 20px 0 40px 0;
+    font-size: 25px;
+    font-weight: 800;
+    background-image: url('../img_discord/stars.svg');
+    background-size: cover;
+    margin: 0 auto;
+}
+
+#light-blue-button {
+    background-color: #8ea1e1;
+    color: #fff;
+
+}
 
 /* /Main Style's */
 
