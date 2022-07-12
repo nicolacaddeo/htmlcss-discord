@@ -159,6 +159,16 @@ h1 {
 footer {
     background-color: #23272a;
     flex-basis: 400px;
+    color: #fff;
+}
+
+#ita-flag {
+    width: 30px;
+    vertical-align: middle;
+}
+
+footer span {
+    vertical-align: middle;
 }
 
 /* /STYLE */
