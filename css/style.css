@@ -10,6 +10,16 @@ body {
     line-height: 1.2rem;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    line-height: 1.8rem;
+}
+
 /* /GENERALS RULES */
 
 /* UTILITIES */
@@ -58,16 +68,12 @@ header:first-child {
     padding-top: 25px;
 }
 
-a {
-    text-decoration: none;
-    color: #fff;
-}
 
 nav>a {
     padding: 0 20px;
 }
 
-#accedi {
+.small-button {
     font-size: 14px;
     border-radius: 40px;
     padding: 8px 17px;
@@ -156,10 +162,15 @@ h1 {
 
 /* /Main Style's */
 
+/* Footer Style's */
 footer {
     background-color: #23272a;
-    flex-basis: 400px;
     color: #fff;
+    flex-basis: 650px;
+}
+
+#left-footer {
+    width: 20%;
 }
 
 #ita-flag {
@@ -167,8 +178,51 @@ footer {
     vertical-align: middle;
 }
 
-footer span {
+#footer-title {
+    color: #7289da;
+    font-size: 30px;
+    padding: 25px 0;
+    line-height: 2.5rem;
+    font-weight: 700;
+}
+
+#down-arrow {
+    width: 10px;
     vertical-align: middle;
 }
+
+.social-icons {
+    width: 25px;
+    margin: 20px 10px;
+}
+
+footer span {
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+h5 {
+    color: #7289da;
+    font-size: 17px;
+    padding: 40px 0 10px 0;
+}
+
+.footer-list {
+    flex-grow: 1;
+    margin-bottom: 25px;
+}
+
+.logo-signup {
+    margin-top: 35px;
+}
+
+.logo-signup button {
+    color: #fff;
+    background-color: #8ea1e1;
+}
+
+
+/* /Footer Style's */
+
 
 /* /STYLE */
